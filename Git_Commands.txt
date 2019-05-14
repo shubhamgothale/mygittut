@@ -1,0 +1,49 @@
+To Create File in Git bash
+$touch <file_name with Extension>
+
+To Initialise git
+$git init
+
+Configure Git before start. with your name and email address
+$git config --global user.name 'Shubham Gothale'
+$git config --global user.email 'shubhamiitkgp2503@gmail.com'
+
+Add File to git Repository
+$git add <file_name>
+
+To see file in git repository
+$git status
+
+Remove file from git
+$git rm --cache <file_name>
+
+To add all file with same extension
+$git add *.<extension>
+
+To add all the file in folder
+$git add .
+
+To commit all the changes
+$git commit
+OR 
+$git commmit -m '<give comment>'
+
+
+To skip/ ignore some file while commit
+$touch .gitignore
+Create gitignore file/folder and add the file name which is to be ignore
+
+Create Branch 
+$git branch <branch_name>
+
+Go to branch
+$git commit '<comment>'
+$git checkout <branch_name>
+
+Go to master and add the brach to the master
+$git merge <branch_name>
+ 
+
+Add the remote repository
+$git remote add origin https://github.com/shubhamgothale/mygittut.git 
+$git push -u origin master
